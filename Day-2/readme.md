@@ -70,7 +70,7 @@ Once you have all the prerequisites installed, you can proceed with cloning the 
 ### For efficient handling, install Chocolatey to manage software and packages automatically with the command:
 
 ```bash
-choco install <package-name>
+choco install package-name
 
 
 # Today's Task
