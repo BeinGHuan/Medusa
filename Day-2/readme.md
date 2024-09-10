@@ -13,7 +13,7 @@ Before you begin setting up Medusa, ensure you have the following:
 - This will include npm (Node Package Manager).
 
   To verify installation, run:
-  bash
+  ```bash
   node -v
   npm -v
   
