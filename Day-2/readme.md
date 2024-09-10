@@ -43,7 +43,7 @@ Before you begin setting up Medusa, ensure you have the following:
 
 - Install the Medusa CLI globally using npm:
 
-  bash
+  ```bash
   npm install -g @medusajs/medusa-cli
   
 
@@ -51,7 +51,7 @@ Before you begin setting up Medusa, ensure you have the following:
 
 - If you plan to deploy Medusa on AWS, ensure you have an AWS account and the AWS CLI installed. Configure the AWS CLI with your credentials:
 
-  bash
+  ```bash
   aws configure
   
 
@@ -69,7 +69,7 @@ Once you have all the prerequisites installed, you can proceed with cloning the 
 
 ### For efficient handling, install Chocolatey to manage software and packages automatically with the command:
 
-bash
+```bash
 choco install <package-name>
 
 
@@ -88,7 +88,7 @@ choco install <package-name>
 
 **Install the Medusa CLI**: Install the Medusa CLI globally using npm:
 
-bash
+```bash
 npm install -g @medusajs/medusa-cli
 
 
@@ -96,7 +96,7 @@ npm install -g @medusajs/medusa-cli
 
 **Create a Medusa Server Project:**
 
-bash
+```bash
 medusa new my-medusa-store
 
 
@@ -104,7 +104,7 @@ medusa new my-medusa-store
 
 - Navigate to your Medusa server project directory and start the server:
 
-bash
+```bash
 cd my-medusa-store
 medusa develop
 
@@ -113,7 +113,7 @@ medusa develop
 
 - Send a GET request to the API’s products endpoint using curl in a different terminal window to confirm the server is running properly:
 
-bash
+```bash
 curl localhost:9000/store/products
 
 
@@ -124,7 +124,7 @@ curl localhost:9000/store/products
 - Note down your PostgreSQL credentials.
 - Check the installed package versions using the commands to ensure they are installed:
 
-bash
+```bash
 npm -v
 node -v
 psql --version
