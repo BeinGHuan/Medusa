@@ -1,5 +1,4 @@
 # Day-2
-# Day-2
 **September 10, 2024**
 
 # Medusa Setup
@@ -14,7 +13,7 @@ Before you begin setting up Medusa, ensure you have the following:
 - This will include npm (Node Package Manager).
 
   To verify installation, run:
-  bash
+  ```bash
   node -v
   npm -v
   
