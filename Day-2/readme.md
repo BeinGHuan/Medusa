@@ -13,7 +13,7 @@ Before you begin setting up Medusa, ensure you have the following:
 -  This will include npm (Node Package Manager).
 
   To verify installation, run:
-  bash
+  ```bash
   node -v
   npm -v
   
@@ -50,7 +50,7 @@ Before you begin setting up Medusa, ensure you have the following:
 
 - If you plan to deploy Medusa on AWS, ensure you have an AWS account and the AWS CLI installed. Configure the AWS CLI with your credentials:
   bash
-  aws configur
+  aws configurE
   
 
 ### 7. Terraform and AWS CLI (for Infrastructure as Code)
