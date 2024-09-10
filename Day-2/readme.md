@@ -33,21 +33,21 @@ Before you begin setting up Medusa, ensure you have the following:
 - Git is needed for cloning the Medusa repository. Install Git from [git-scm.com](https://git-scm.com/downloads).
 
   To verify installation, run:
-  bash
+  ```bash
   git --version
   
 
 ### 5. Medusa CLI
 
 - Install the Medusa CLI globally using npm:
-  bash
+  ```bash
   npm install -g @medusajs/medusa-cli
   
 
 ### 6. AWS Account (if deploying to AWS)
 
 - If you plan to deploy Medusa on AWS, ensure you have an AWS account and the AWS CLI installed. Configure the AWS CLI with your credentials:
-  bash
+  ```bash
   aws configure
   
 
@@ -64,7 +64,7 @@ Before you begin setting up Medusa, ensure you have the following:
 Once you have all the prerequisites installed, you can proceed with cloning the Medusa repository, setting up the environment, and running Medusa.
 
 For efficient handling, install Chocolatey to manage software and packages automatically with the command:
-bash
+```bash
 choco install <package-name>
 
 
@@ -89,14 +89,14 @@ npm install -g @medusajs/medusa-cli
 **Setup PostgreSQL database with default credentials or skip the process and set up your database details later on.**
 
 **Create a Medusa Server Project:**
-bash
+```bash
 medusa new my-medusa-store
 
 
 **Start the Medusa Server**
 
 - Navigate to your Medusa server project directory and start the server:
-bash
+```bash
 cd my-medusa-store
 medusa develop
 
