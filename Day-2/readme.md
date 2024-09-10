@@ -97,8 +97,8 @@ For efficient handling, install Chocolatey to manage software and packages autom
 
 - Navigate to your Medusa server project directory and start the server:
   
-```cd my-medusa-store
-medusa develop`
+`cd my-medusa-store`
+`medusa develop`
 
 
 **Test It Out**
