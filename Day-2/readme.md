@@ -121,7 +121,7 @@ psql --version
 git --version
 
 
-Thank you for reading! Stay tuned for more updates and progress on this project.
+### Thank you for reading! Stay tuned for more updates and progress on this project.
 
 See you in the next content or task progress!
 
