@@ -48,8 +48,7 @@ Before you begin setting up Medusa, ensure you have the following:
 
 ### 6. AWS Account (if deploying to AWS)
 
-- If you plan to deploy Medusa on AWS, ensure you have an AWS account and the AWS CLI installed. Configure the AWS CLI with your
-  credentials:
+- If you plan to deploy Medusa on AWS, ensure you have an AWS account and the AWS CLI installed. Configure the AWS CLI with your credentials:
   bash
   aws configur
   
@@ -113,12 +112,12 @@ choco install <package-name>
     bash
     curl localhost:9000/store/products
 
-  ### Issues I faced
+  ### Some of the issues I faced
 
-  - Make sure all the files mentioned in prerequisite for the day and installed and setup.
-  - Check if the software or your device supports the versions of the packages that you've installed
+  - Make sure all the files mentioned in prerequisite for the day and installed and     setup.
+  - Check if the software or your device supports the versions of the packages that     you've installed
   - Note down your postgresql credentials
-  - Check the installed package version using the command to ensure they are installed:
+  - Check the installed package version using the command to ensure they are            installed:
     bash
     npm -v
     node -v
