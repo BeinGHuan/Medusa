@@ -65,8 +65,7 @@ Once you have all the prerequisites installed, you can proceed with cloning the 
 
 For efficient handling, install Chocolatey to manage software and packages automatically with the command:
 
-`bash
-choco install <package-name>`
+`choco install <package-name>`
 
 
 #### Today's Task
@@ -84,30 +83,29 @@ choco install <package-name>`
 
 **Install the Medusa CLI**: Install the Medusa CLI globally using npm:
 
-`bash
-npm install -g @medusajs/medusa-cli`
+`npm install -g @medusajs/medusa-cli`
 
 
 **Setup PostgreSQL database with default credentials or skip the process and set up your database details later on.**
 
 **Create a Medusa Server Project:**
-`bash
-medusa new my-medusa-store`
+
+`medusa new my-medusa-store`
 
 
 **Start the Medusa Server**
 
 - Navigate to your Medusa server project directory and start the server:
-bash
-cd my-medusa-store
+  
+```cd my-medusa-store
 medusa develop`
 
 
 **Test It Out**
 
 - Send a GET request to the API’s products endpoint using curl in a different terminal window to confirm the server is running properly:
-`bash
-curl localhost:9000/store/products`
+
+`curl localhost:9000/store/products`
 
 
 ### Some of the Issues I Faced
@@ -116,11 +114,11 @@ curl localhost:9000/store/products`
 - Check if the software or your device supports the versions of the packages you’ve installed.
 - Note down your PostgreSQL credentials.
 - Check the installed package versions using the commands to ensure they are installed:
-`bash
-npm -v
-node -v
-psql --version
-git --version`
+
+`npm -v`
+`node -v`
+`psql --version`
+`git --version`
 
 
 ### Thank you for reading! Stay tuned for more updates and progress on this project.
