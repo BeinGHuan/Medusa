@@ -10,32 +10,30 @@ Before you begin setting up Medusa, ensure you have the following:
 ### 1. Node.js and npm
 
 - **Node.js**: Medusa requires Node.js. Download and install Node.js from [nodejs.org](https://nodejs.org/).
--  This will include npm (Node Package Manager).
+- This will include npm (Node Package Manager).
 
   To verify installation, run:
-  ```bash
+  bash
   node -v
   npm -v
   
 
 ### 2. PostgreSQL
 
-- Medusa uses PostgreSQL as its database. Install PostgreSQL from [postgresql.org](https://www.postgresql.org/download/)
-  and ensure it is running.
+- Medusa uses PostgreSQL as its database. Install PostgreSQL from [postgresql.org](https://www.postgresql.org/download/) and ensure it is running.
 
   - **Database Creation**: Create a new database for Medusa.
 
 ### 3. Redis
 
-- Redis is used by Medusa for caching and background job processing. Install Redis from [redis.io](https://redis.io/download/)
-  and ensure it is running.
+- Redis is used by Medusa for caching and background job processing. Install Redis from [redis.io](https://redis.io/download/) and ensure it is running.
 
 ### 4. Git
 
 - Git is needed for cloning the Medusa repository. Install Git from [git-scm.com](https://git-scm.com/downloads).
 
   To verify installation, run:
- `bash
+  bash
   git --version
   
 
@@ -49,14 +47,13 @@ Before you begin setting up Medusa, ensure you have the following:
 ### 6. AWS Account (if deploying to AWS)
 
 - If you plan to deploy Medusa on AWS, ensure you have an AWS account and the AWS CLI installed. Configure the AWS CLI with your credentials:
-  `bash
-  aws configurE
+  bash
+  aws configure
   
 
 ### 7. Terraform and AWS CLI (for Infrastructure as Code)
 
-- If you're using Terraform for Infrastructure as Code (IaC), install Terraform from [terraform.io](https://www.terraform.io/downloads)
-- and ensure the AWS CLI is installed as mentioned above.
+- If you're using Terraform for Infrastructure as Code (IaC), install Terraform from [terraform.io](https://www.terraform.io/downloads) and ensure the AWS CLI is installed as mentioned above.
 
 ### 8. Editor and IDE
 
@@ -64,73 +61,73 @@ Before you begin setting up Medusa, ensure you have the following:
 
 ## Next Steps
 
-Once you have all the prerequisites installed, you can proceed with cloning the Medusa repository,
-setting up the environment, and running Medusa.
+Once you have all the prerequisites installed, you can proceed with cloning the Medusa repository, setting up the environment, and running Medusa.
 
-### For efficient handling install Chocolatey to install other softwares and packages automatically with the command
+### For efficient handling, install Chocolatey to manage software and packages automatically with the command:
 
-`bash
+bash
 choco install <package-name>
+
 
 # Today's Task
 
-## Integrate and Run Medusa locally
+## Integrate and Run Medusa Locally
 
-### Make sure all the prerequisites are set
+### Make sure all the prerequisites are set:
 
-- node.js
-- npm (node package manager)
-- postgresql
-- git
+- Node.js
+- npm (Node Package Manager)
+- PostgreSQL
+- Git
 
 ### Steps to follow
 
-**Install the Medusa CLI**: Install the Medusa CLI globally using NPM
-  
-  `bash
-  npm install @medusajs/medusa-cli --global
+**Install the Medusa CLI**: Install the Medusa CLI globally using npm:
+bash
+npm install -g @medusajs/medusa-cli
 
-**Setup postgresql database with default credentials or skip the process and setup your database details later on** 
 
-**Create a Medusa Server Project**
+**Setup PostgreSQL database with default credentials or skip the process and set up your database details later on.**
 
-  `bash
-  medusa new my-medusa-store
+**Create a Medusa Server Project:**
+bash
+medusa new my-medusa-store
+
 
 **Start the Medusa Server**
 
-- Navigate to our medusa server project directory and start the server
-
-  ```bash
-  cd watch-store-medusa-server
-  medusa develop
-
-  *Test It Out*
-  
-  - Send a get request to the API’s products endpoint using curl in a different terminal window to confirm the server is running properly.
-
-    `bash
-    curl localhost:9000/store/products
-
-  ### Some of the issues I faced
-
-  - Make sure all the files mentioned in prerequisite for the day and installed and     setup.
-  - Check if the software or your device supports the versions of the packages that     you've installed
-  - Note down your postgresql credentials
-  - Check the installed package version using the command to ensure they are            installed:
-    ```bash
-    npm -v
-    node -v
-    psql --version
-    git -v
+- Navigate to your Medusa server project directory and start the server:
+bash
+cd my-medusa-store
+medusa develop
 
 
-   Thank you for reading! Stay tuned for more updates and progress on this project.
+**Test It Out**
 
-   See you in the next content or task progress!
+- Send a GET request to the API’s products endpoint using curl in a different terminal window to confirm the server is running properly:
+bash
+curl localhost:9000/store/products
 
-   Best regards,
 
-   MR_DevOps
+### Some of the Issues I Faced
+
+- Make sure all the files mentioned in the prerequisites for the day are installed and set up.
+- Check if the software or your device supports the versions of the packages you’ve installed.
+- Note down your PostgreSQL credentials.
+- Check the installed package versions using the commands to ensure they are installed:
+bash
+npm -v
+node -v
+psql --version
+git --version
+
+
+Thank you for reading! Stay tuned for more updates and progress on this project.
+
+See you in the next content or task progress!
+
+Best regards,
+
+MR_DevOps
 
   
