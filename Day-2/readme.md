@@ -114,7 +114,7 @@ curl localhost:9000/store/products
 - Check if the software or your device supports the versions of the packages you’ve installed.
 - Note down your PostgreSQL credentials.
 - Check the installed package versions using the commands to ensure they are installed:
-bash
+```bash
 npm -v
 node -v
 psql --version
