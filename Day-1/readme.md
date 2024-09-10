@@ -67,11 +67,6 @@ Both Strapi and Medusa offer robust solutions for building modern applications, 
 
 Choose the platform that best aligns with your project requirements, technical expertise, and long-term goals.
 
-## Next Steps
-
-1. *Evaluate Requirements*: Assess your specific needs and how each platform aligns with them.
-2. *Prototype and Test*: Consider creating a prototype or proof of concept to evaluate the platforms in action.
-3. *Choose the Platform*: Make your decision based on your findings and project needs.
 
 # Basics to know before heading into moving onto the daily tasks
 
