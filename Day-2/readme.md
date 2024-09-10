@@ -14,7 +14,7 @@ Before you begin setting up Medusa, ensure you have the following:
 
   To verify installation, run:
 
-  bash
+  ```bash
   node -v
   npm -v
   
