@@ -13,7 +13,8 @@ Before you begin setting up Medusa, ensure you have the following:
 - This will include npm (Node Package Manager).
 
   To verify installation, run:
-  ```bash
+
+  bash
   node -v
   npm -v
   
@@ -33,6 +34,7 @@ Before you begin setting up Medusa, ensure you have the following:
 - Git is needed for cloning the Medusa repository. Install Git from [git-scm.com](https://git-scm.com/downloads).
 
   To verify installation, run:
+
   bash
   git --version
   
@@ -40,6 +42,7 @@ Before you begin setting up Medusa, ensure you have the following:
 ### 5. Medusa CLI
 
 - Install the Medusa CLI globally using npm:
+
   bash
   npm install -g @medusajs/medusa-cli
   
@@ -47,6 +50,7 @@ Before you begin setting up Medusa, ensure you have the following:
 ### 6. AWS Account (if deploying to AWS)
 
 - If you plan to deploy Medusa on AWS, ensure you have an AWS account and the AWS CLI installed. Configure the AWS CLI with your credentials:
+
   bash
   aws configure
   
@@ -83,6 +87,7 @@ choco install <package-name>
 ### Steps to follow
 
 **Install the Medusa CLI**: Install the Medusa CLI globally using npm:
+
 bash
 npm install -g @medusajs/medusa-cli
 
@@ -90,6 +95,7 @@ npm install -g @medusajs/medusa-cli
 **Setup PostgreSQL database with default credentials or skip the process and set up your database details later on.**
 
 **Create a Medusa Server Project:**
+
 bash
 medusa new my-medusa-store
 
@@ -97,6 +103,7 @@ medusa new my-medusa-store
 **Start the Medusa Server**
 
 - Navigate to your Medusa server project directory and start the server:
+
 bash
 cd my-medusa-store
 medusa develop
@@ -105,6 +112,7 @@ medusa develop
 **Test It Out**
 
 - Send a GET request to the API’s products endpoint using curl in a different terminal window to confirm the server is running properly:
+
 bash
 curl localhost:9000/store/products
 
@@ -115,6 +123,7 @@ curl localhost:9000/store/products
 - Check if the software or your device supports the versions of the packages you’ve installed.
 - Note down your PostgreSQL credentials.
 - Check the installed package versions using the commands to ensure they are installed:
+
 bash
 npm -v
 node -v
